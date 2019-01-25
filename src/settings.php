@@ -9,6 +9,10 @@ return [
             'template_path' => __DIR__ . '/../templates/',
         ],
 
+        'resources' => [
+            'base_path' => __DIR__ . '/../resources/'
+        ],
+
         // Monolog settings
         'logger' => [
             'name' => 'slim-app',
